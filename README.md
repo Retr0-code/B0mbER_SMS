@@ -17,6 +17,9 @@ python3 B0mbER.py
 
 
 
+
+
+
 Windows
 
 Download archive
