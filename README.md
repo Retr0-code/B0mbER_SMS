@@ -3,7 +3,7 @@ Simple SMS Bomber. It works only in Russia. I am not responsible for any damage 
 
 Installation
 
-Linux/Termux
+/Linux/Termux/
 
 git clone https://github.com/Retr0-code/B0mbER_SMS/
 
@@ -15,12 +15,7 @@ chmod +x B0mbER.py
 
 python3 B0mbER.py
 
-
-
-
-
-
-Windows
+/Windows/
 
 Download archive
 
