@@ -1,9 +1,9 @@
 # B0mbER_SMS
 Simple SMS Bomber. It works only in Russia. I am not responsible for any damage caused to you or by you using this program. The repository is for review and no more.
 
-Installation
+#Installation
 
-/Linux/Termux/
+<b>Linux/Termux</b>
 
 git clone https://github.com/Retr0-code/B0mbER_SMS/
 
@@ -15,7 +15,9 @@ chmod +x B0mbER.py
 
 python3 B0mbER.py
 
-/Windows/
+<br>
+
+<b>Windows</b>
 
 Download archive
 
@@ -25,4 +27,6 @@ pip install -r requirements.txt
 
 .\B0mbER.py
 
-I am not responsible for any damage caused to you or by you using this program. The repository is for review and no more.
+<br>
+
+<b>I am not responsible for any damage caused to you or by you using this program. The repository is for review and no more.</b>
