@@ -15,10 +15,10 @@ cd B0mbER_SMS/
 pip install -r requirements.txt
 ```
 ```sh
-chmod +x B0mbER.py
+chmod +x B0mbEr.py
 ```
 ```sh
-python3 B0mbER.py
+python3 B0mbEr.py
 ```
 <br>
 
