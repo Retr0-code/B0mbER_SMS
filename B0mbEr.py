@@ -1,8 +1,11 @@
+#!/usr/bin/env python3
+
 #Init of libs
 import random
 import requests
 import datetime
 import re
+import threading
 
 print("by >>>Retr0")
 print(
@@ -37,7 +40,8 @@ def convert():
 
     elif len(InNum) == 10:
         print(InNum)
-        Bomber.attack(InNum, Times)
+        #Bomber.attack(InNum, Times)
+        starThreads(InNum, Times)
 
     else:
         print("Something went wrong. Try to remove prefix and other characters from number.")
@@ -236,5 +240,19 @@ class Bomber:
             except:
                 print("Unsuccsess")
                 pass
+
+
+
+def starThreads(number, count):
+    thread1 = threading.Thread(target=Bomber.attack, args=(number, count))
+    thread2 = threading.Thread(target=Bomber.attack, args=(number, count))
+    thread3 = threading.Thread(target=Bomber.attack, args=(number, count))
+    thread4 = threading.Thread(target=Bomber.attack, args=(number, count))
+
+    thread1.start()
+    thread2.start()
+    thread3.start()
+    thread4.start()
+
 
 convert()
